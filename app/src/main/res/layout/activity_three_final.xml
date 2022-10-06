@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".threeFinal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/blue_bac"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#3A0E17">
+
+            </TextView>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="115dp"
+                android:id="@+id/users"
+                android:layout_height="115dp"
+                android:src="@drawable/users"
+                android:layout_marginTop="8dp"
+                app:civ_border_width="2dp"
+                android:layout_marginLeft="140dp"/>
+
+
+            <TextView
+                android:id="@+id/about_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blue_bac"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:text="About Me"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/box1"
+                android:layout_width="370dp"
+                android:layout_height="205dp"
+                android:layout_below="@id/about_me"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+
+            <TextView
+                android:id="@+id/name1_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_me"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="NAME"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/add_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name1_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/email_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/add_ttxt"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/phone_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/email_ttxt"
+                android:text="Phone"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/birth_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/phone_ttxt"
+                android:text="Date of Birth"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/nati_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/birth_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Nation"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/marital_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/nati_ttxt"
+                android:text="Marital"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/gender_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/marital_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/Education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gender_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Education"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/box2"
+                android:layout_width="370dp"
+                android:layout_height="105dp"
+                android:layout_below="@id/Education"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+            <TextView
+                android:id="@+id/cource_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/Education"
+                android:text="degree"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/uni_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cource_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="university"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/grade_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/uni_ttxt"
+                android:text="grade"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/year_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/grade_ttxt"
+                android:text="year"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/Exper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/year_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Experience"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/box3"
+                android:layout_width="370dp"
+                android:layout_height="130dp"
+                android:layout_below="@id/Exper"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+            <TextView
+                android:id="@+id/com_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/Exper"
+                android:text="Company"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/job_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Job Title"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/start_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/job_ttxt"
+                android:text="Start date"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/end_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/start_ttxt"
+                android:text="End Date"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/deatail_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/end_ttxt"
+                android:text="Deatail"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/skill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deatail_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Skills"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/box4"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/skill"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+
+
+            <TextView
+                android:id="@+id/skill_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/skill"
+                android:text="Skill"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/hobby_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/skill_ttxt"
+                android:text="Hobby"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/objective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hobby_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Objective"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/box5"
+                android:layout_width="370dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/objective"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+            <TextView
+                android:id="@+id/obj_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/objective"
+                android:text="Objective"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/refee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/obj_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Reference"
+                android:textColor="#3A0E17"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/box6"
+                android:layout_width="370dp"
+                android:layout_height="130dp"
+                android:layout_below="@id/refee"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#D7CBCBDC" />
+            <TextView
+                android:id="@+id/refee_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/refee"
+                android:text="Reference name"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/jobi_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/refee_ttxt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Job Title"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/compi_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/jobi_ttxt"
+                android:text="company name"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/emill_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/compi_ttxt"
+                android:text="email"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/phonee_ttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/emill_ttxt"
+                android:text="phone"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
